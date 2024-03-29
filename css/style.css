@@ -1,0 +1,256 @@
+header{
+	width: 100%;
+	height: 120px;
+	background: #fff;
+	box-shadow: 0px 5px 8px rgba(#000,.1);
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	justify-content: space-between;
+	position: fixed;
+	top: 0;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+.logo{
+	margin-top: 25px;
+	display: flex;
+	flex-direction: row;
+	margin-left: 30px;
+	font-weight: bold;
+	font-size: 12px;
+}
+.LOGO1{
+	width: 70px;
+}
+
+header nav{
+	display: flex;
+	flex-direction: row;
+	margin-right: 40px;
+}
+nav{
+	margin-top: 20px;
+}
+header nav ul li a{
+    width: 100%;
+	color: #000;
+}
+ a{	
+	text-decoration: none;
+	color: rgb(41, 6, 58);
+}
+span, a{
+	font-weight: bold;
+	font-size: 13px;
+}
+ul li{
+	list-style: none;
+}
+h3{
+	margin-top: 40px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+   font-weight: bold;
+   font-size: 25px;
+}
+#l{
+	margin-left: 100px;
+}
+#menu{
+	margin-right: 20px;
+	display: flex;
+}
+#menu li{
+	padding: 10px;
+}
+#sous{
+   display: none;
+}
+#men{
+	margin-top: 25px;
+	padding: 0 10px 0 0;	
+}
+span a{
+    color: #000;
+}
+#sous span a{
+	color: rgba(255, 115, 0, 0.877);
+    padding: 10px;
+}
+#menu a:hover{
+	color: rgba(255, 115, 0, 0.877);
+}
+#men:hover #sous{
+    transition: 2s;
+	margin-top: 0;
+	display: block;
+    background: rgba(22, 22, 22, 0.87);
+    padding: 20px;
+    border-radius: 10px;
+}
+#sous span{
+	display: flex;
+	flex-direction: row;
+}
+#annonce{
+    display: flex;
+	flex-direction: column;
+	margin-top: 30px;
+	width: 100%;
+	height: 500px;
+    background: rgb(12, 12, 12);
+	overflow: hidden;
+}
+.mariage{
+    display: flex;
+	flex-direction: column;
+    align-items: center;
+	width: 320px;
+	height: 350px;
+    background: #000;
+    border: #fff 2px solid; 
+    border-radius: 5px;
+    margin: 20px;
+   
+}
+h4, span, a{
+    color: #fff;
+}
+.mariage img:hover{
+	padding: 20px;
+	transition: 4s;
+}
+.mari{
+    margin-top: 10px;
+	width: 300px;
+	height: 200px;
+}
+.marie{
+	color: #fff;
+	font-weight: bold;
+}
+.lesmari{
+	background: grey;
+	margin-left: 30px;
+	width: 50px;
+	height: 50px;
+}
+
+.mariages{
+	display: flex;
+	flex-direction: row;
+	margin-left: 40px;
+}
+.lesmari:hover{
+	padding: 50px;
+	background: yellowgreen;
+	transition: 2s;
+	color: #fff;
+}
+.histoire{
+	margin-top: 50px;
+    height: 400px;
+}
+.elementhistoire{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.projet{
+	margin-top: 50px;
+}
+.projet1{
+	width: 100%;
+	height: 400px;
+}
+.projet3{
+	margin: 20px;
+	width: 90%;
+	height: 350;
+	
+}
+.projet4{
+	width: 90%;
+	height: 250px;
+}
+.projet2{
+	display: flex;
+	flex-direction: row;
+}
+.titremariage{
+	text-align: center;
+	font-weight: bold;
+}
+.imagemariage{
+	padding-bottom: 30px;
+}
+.bodyplein{
+	margin: 20px;
+}
+.his{
+	color: #fff;
+}
+.enteteh{
+	margin-top: 200px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.photo{
+	margin-top: 100px;
+}
+.photo2{
+	display: flex;
+	flex-direction: row;
+}
+.pho{
+	margin: 30px;
+}
+.pho1{
+	border-radius: 50%;
+	margin-bottom: 10px;
+}
+.pho2{
+	padding: 10px;
+	font-weight: bold;
+}
+.telechar{
+	background-color: rgba(255, 0, 179, 0.233);
+}
+.compteur{
+	margin-left: 200px;
+}
+.parti{
+	margin-top: 40px;
+    width: 100%;
+    height: 400px;
+    background: rgba(0, 0, 0, 0.829);
+}
+.parti1{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    margin-left: 50px;
+}
+.pied{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: 350px;
+	margin-right: 30px;
+    background: #000;
+    border-radius: 10px;
+    box-shadow: 12px 3px 15px;
+    color: #fff;
+}
+.pied1{
+	margin: 20px;
+}
+.pied2{
+	padding: 40px;
+}
